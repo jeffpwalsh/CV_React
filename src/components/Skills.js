@@ -13,7 +13,7 @@ const Skills = () => {
             <button class="btn btn-primary">CSS</button>
             <button class="btn btn-primary">JavaScript</button>
             <button class="btn btn-primary">jQuery</button>
-            <button class="btn btn-primary">Bootstrap4</button>
+            <button class="btn btn-primary">Bootstrap</button>
             <button class="btn btn-primary">React</button>
             <button class="btn btn-primary">Git</button>
             <p> Junior Web Dev Skillset</p>
