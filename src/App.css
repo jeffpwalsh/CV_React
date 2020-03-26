@@ -1,38 +1,113 @@
+/* CUSTOM STYLING */
 .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+  margin: 0px; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.sub {
+  color: grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aside {
+
+  background-color: lightgray;
+  /* height: 100vmin; */
+  margin: 5px;
+}
+
+.section {
+
+  background-color: lightgray;
+  /* height: 100vmin; */
+  margin: 5px; 
+
+}
+
+.card {
+
+  background-color: whitesmoke;
+  border: 1px solid white;
+  margin: 10px;
+}
+
+.pofile_block {
+
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 20%;
+  text-align: center;
+  padding: 50px; 
+  border-radius: 12px;
+
+}
+
+.pofile_block img {
+
+  width: 200px; 
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+
+/* COMPONENT STYLES */
+.about_block {
+
+  text-align: left;
+  padding: 10px; 
+  border-radius: 12px;
+
+}
+
+/* COMPONENT STYLES */
+.education_block {
+
+  text-align: left;
+  padding: 10px; 
+  border-radius: 12px;
+
+}
+
+/* COMPONENT STYLES */
+.skills_block {
+
+  text-align: left;
+  padding: 10px; 
+  border-radius: 12px;
+
+}
+
+/* SKILLS STYLES */
+.btn-primary {
+
+  pointer-events: none; 
+  width: 100px; 
+  margin: 1px; 
+
+}
+
+/* SKILLS STYLES */
+.btn-success {
+
+  pointer-events: none; 
+  width: 175px; 
+  margin: 1px; 
+
+}
+
+/* COMPONENT STYLES */
+.experience_block {
+
+  text-align: left;
+  padding: 10px; 
+  border-radius: 12px;
+
 }
