@@ -23,7 +23,7 @@ const  Profile = () => {
             <br />
             <a href="http://github.com/jeffpwalsh">GitHub</a>
             <hr />
-            <p>I built this site using React components.</p>
+            <p>I built this site using React components!</p>
         
         </div>
 
